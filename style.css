@@ -1,0 +1,324 @@
+header {
+    background-color: #00BFFF;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 1px 2px black;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+.header {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+  
+.menu-icon::before,
+.menu-icon::after {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background-color: #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.menu-icon::before {
+    top: calc(50% - 8px);
+}
+  
+.menu-icon::after {
+    top: calc(50% + 5px);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-left: 10px;
+}
+
+header h2 {
+    font-size: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+header h3 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.profile-photo {
+    width: 50px; /* Ajuste o tamanho da foto conforme necessário */
+    height: 50px;
+}
+
+.header-divider {
+    border: none;
+    border-top: 1px solid #000; /* Cor e estilo da linha (substitua #000 pela cor desejada) */
+    margin: 0;
+}
+
+h2.titulo {
+    text-align: center;
+    color: #053c4e;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.linguagem {
+    margin-top: 30px;
+}
+
+.linguagem h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 3px;
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #053c4e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
+    letter-spacing: 3px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    margin-top: 35px;
+}
+
+.container img {
+    max-width: 70%;
+    max-height: 70%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.typing-effect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #ffffff;
+}
+  
+#text {
+    color: #053c4e;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000000;
+    padding-right: 5px;
+    animation: typing 3s steps(40) infinite;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    letter-spacing: 2px;
+}
+
+#sobremim {
+   background-color: #00BFFF;
+   height: 39rem;
+   font-size: 24px;
+   padding-left: 30px;
+   padding-right: 30px;
+   color: #053c4e;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+   letter-spacing: 2px;
+   text-align: justify;
+}
+
+#sobremim h3 {
+    text-align: center;
+    margin: 3px;
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    color: #053c4e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
+}
+
+.photo-container {
+    display: flex;
+}
+
+.column {
+    flex-basis: 50%;
+}
+
+.photo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#projetos {
+    background-color: #ffffff;
+    height: 50rem;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    letter-spacing: 2px;
+}
+
+#projetos h3 {
+    text-align: center;
+    margin: 3px;
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #053c4e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
+}
+
+#servicos {
+    background-color: #ffffff;
+    height: 44rem;
+    font-size: 24px;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    letter-spacing: 2px;
+    color: #053c4e;
+}
+
+#servicos h3 {
+    text-align: center;
+    margin: 3px;
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #053c4e;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
+}
+
+.projec {
+    display: flex;
+    align-items: center;
+    height: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.projec img {
+    max-width: 40%;
+    max-height: 40%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+  
+#depoimentos {
+    background-color: #00BFFF;
+    height: 72rem;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+    letter-spacing: 2px;
+    color: #053c4e;
+}
+
+#depoimentos h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 3px;
+    padding: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #ffffff;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.527);
+}
+
+.balao {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    color: 053c4e;
+    max-width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.balao::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 20px solid #e6e6e6;
+    transform: translateY(-50%);
+}
+
+#contato {
+    height: 5rem;
+    padding-left: 30px;
+    padding-top: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+
+.contatos {
+    display: flex;
+}
+  
+.foto-contato {
+    width: 40px; /* ajuste o tamanho conforme necessário */
+    height: 40px;
+    margin-right: 50px; /* espaço entre as fotos */
+    border-radius: 50%; /* para deixar as fotos com formato arredondado */
+    margin-left: 12px;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+   
+a {
+    color: #333;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    height: 3rem;
+    padding-left: 10px;
+    padding-top: 0px;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
