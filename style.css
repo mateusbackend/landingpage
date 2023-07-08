@@ -163,7 +163,7 @@ h2.titulo {
 }
 
 .photo {
-    width: 200px;
+    width: 190px;
     height: auto;
     margin-bottom: 10px;
 }
@@ -225,13 +225,14 @@ h2.titulo {
   
 #depoimentos {
     background-color: #00BFFF;
-    height: 72rem;
+    height: 73rem;
     font-size: 17px;
     padding-left: 30px;
     padding-top: 30px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
     letter-spacing: 2px;
     color: #053c4e;
+    padding-bottom: 5px;
 }
 
 #depoimentos h3 {
